@@ -1,0 +1,47 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- <bean id="pulsor1" class="com.nt.beans.Bike">
+<property name="id" value="TSO81111"/>
+<property name="make" value="BAJAj"/>
+<property name="engineCC" value="150"></property>
+</bean>
+
+<bean id="pulsor2" class="com.nt.beans.Bike">
+<property name="id" value="TSO81122"/>
+<property name="make" value="BAJAj"/>
+<property name="engineCC" value="150"/>
+</bean> -->
+
+ <!-- soloution -->
+<!-- <bean id="pulsor1" class="com.nt.beans.Bike">
+<property name="id" value="TSO81111"/>
+<property name="make" value="BAJAj"/>
+<property name="engineCC" value="150"/>
+</bean>
+           
+<bean id="pulsor2" class="com.nt.beans.Bike" parent="pulsor1">
+<property name="id" value="TSO81122"/>
+</bean>
+<bean id="pulsor3" class="com.nt.beans.Bike" parent="pulsor1">
+<property name="id" value="TSO8112245"/>
+</bean> -->
+                          <!-- solution -3-->
+                          
+ <bean id="pulsor1" class="com.nt.beans.Bike" abstract="true">
+<property name="make" value="BAJAj"/>
+<property name="engineCC" value="150"/>
+</bean>
+
+<bean id="pulsor2" class="com.nt.beans.Bike" parent="pulsor1">
+<property name="id" value="TSO81122"/>
+
+</bean>
+
+<bean id="pulsor3" class="com.nt.beans.Bike" parent="pulsor1">
+<property name="id" value="TSO8fdgfd1122"/>
+
+</bean>
+
+</beans>

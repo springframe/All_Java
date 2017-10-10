@@ -1,0 +1,15 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans.xsd">
+   
+   <bean id="enggId" class="com.nt.beams.Engine"/>
+   <bean id="vechile" class="com.nt.beams.Viechle">
+ <!--   <property name="enggId" value="enggId"/> -->
+ <!-- <property name="enggId">
+ <idref bean="enggId/>"
+ </property> -->
+   </bean>
+  </beans>
+   

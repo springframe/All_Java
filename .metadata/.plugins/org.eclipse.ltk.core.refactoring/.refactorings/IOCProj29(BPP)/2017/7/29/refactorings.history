@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;pom.xml&apos; to &apos;DAOProj1(JdbcTamplate_DirectMethod)&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj29(BPP)&apos;&#x0D;&#x0A;- Destination element: &apos;DAOProj1(JdbcTamplate_DirectMethod)&apos;&#x0D;&#x0A;- Original element: &apos;pom.xml&apos;" description="Copy file" element1="pom.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1500311609300" target="/DAOProj1(JdbcTamplate_DirectMethod)" units="0" version="1.0"/>
+</session>

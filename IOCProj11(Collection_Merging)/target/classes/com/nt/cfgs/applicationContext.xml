@@ -1,0 +1,45 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- <bean id="base1year" class="com.nt.beans.EnggCourse" abstract="true">
+<property name="subjects">
+<list>
+<value>C</value>
+<value>JAVA</value>
+<value>MATH</value>
+</list>
+</property>
+</bean>
+<bean id="ECE1year" class="com.nt.beans.EnggCourse" parent="base1year">
+<property name="subjects">
+<list>
+<value>DIGITAL ELECTORNICS</value>
+<value>CIRCUIT</value>
+<value>C</value>
+<value>JAVA</value>
+<value>MATH</value>
+</list>
+</property>
+</bean> -->
+
+<bean id="base1year" class="com.nt.beans.EnggCourse" abstract="true">
+<property name="subjects">
+<list>
+<value>C</value>
+<value>JAVA</value>
+<value>MATH</value>
+</list>
+</property>
+</bean>
+
+<bean id="ECE1year" class="com.nt.beans.EnggCourse" parent="base1year">
+<property name="subjects">
+<list merge="true">
+<value>DIGITAL ELECTORNICS</value>
+
+</list>
+</property>
+</bean>
+</beans>

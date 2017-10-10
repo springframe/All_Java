@@ -1,0 +1,10 @@
+127.0.0.1 - - [07/Jun/2017:22:13:45 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [07/Jun/2017:22:13:47 +0530] "GET /MVCProj6(UFNVC-2container)/ HTTP/1.1" 200 223
+0:0:0:0:0:0:0:1 - - [07/Jun/2017:22:13:50 +0530] "GET /MVCProj6(UFNVC-2container)/wish.htm HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [07/Jun/2017:22:13:52 +0530] "GET /MVCProj6(UFNVC-2container)/welcome.htm HTTP/1.1" 200 223
+0:0:0:0:0:0:0:1 - - [07/Jun/2017:22:13:54 +0530] "GET /MVCProj6(UFNVC-2container)/contact_us.htm HTTP/1.1" 200 223
+0:0:0:0:0:0:0:1 - - [07/Jun/2017:22:13:56 +0530] "GET /MVCProj6(UFNVC-2container)/welcome.htm HTTP/1.1" 200 223
+0:0:0:0:0:0:0:1 - - [07/Jun/2017:22:13:57 +0530] "GET /MVCProj6(UFNVC-2container)/about_us.htm HTTP/1.1" 200 392
+0:0:0:0:0:0:0:1 - - [07/Jun/2017:22:13:59 +0530] "GET /MVCProj6(UFNVC-2container)/welcome.htm HTTP/1.1" 200 223
+127.0.0.1 - - [07/Jun/2017:23:07:32 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [07/Jun/2017:23:07:34 +0530] "GET /MVCApp1/ HTTP/1.1" 500 3794

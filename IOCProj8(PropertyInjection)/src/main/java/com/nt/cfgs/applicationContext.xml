@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="emp" class="com.nt.beans.EmployeeProfile">
+<property name="empDesg">
+<props>
+<prop key="mansur">Cleark</prop>
+<prop key="mansur1">Cleark1</prop>
+<prop key="mansur2">Cleark2</prop>
+<prop key="mansur3">Cleark3</prop>
+
+</props>
+</property>
+</bean>
+<!-- <bean id="shop"  class="com.nt.beans.FruitShop">
+	  <property name="fruitColors">
+	    <props>
+	      <prop key="dt">green</prop>
+	      <prop key="mango">yellow</prop>
+	      <prop key="apple">red</prop>
+	    </props>
+	  </property>
+	</bean> -->
+
+</beans>

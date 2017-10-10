@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;applicationContext.xml&apos; to &apos;IOCProj15(BeanScope,Singletone,Prototype)/src/main/java/com.nt.cfgs&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj14(factory_method)&apos;&#x0D;&#x0A;- Destination element: &apos;IOCProj15(BeanScope,Singletone,Prototype)/src/main/java/com.nt.cfgs&apos;&#x0D;&#x0A;- Original element: &apos;applicationContext.xml&apos;" description="Copy file" destination="=IOCProj15\(BeanScope,Singletone,Prototype)/src\/main\/java&lt;com.nt.cfgs" element1="src/main/java/com/nt/cfgs/applicationContext.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1495949348642" units="0" version="1.0"/>
+</session>

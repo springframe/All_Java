@@ -1,0 +1,27 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="tp1" class="com.nt.beans.TourPlan">
+<property name="places" >
+<list>
+<value>DELHI</value>
+<value>SIMLA</value>
+<value>MUMBAI</value>
+</list>
+</property>
+
+</bean>
+<!-- <bean id="tp2" class="com.nt.beans.TourPlan">
+<property name="places" >
+<list>
+<value>NewYourk</value>
+<value>AMERICA</value>
+<value>DUBAI</value>
+</list>
+</property>
+
+</bean> -->
+<bean id="tagent" class="com.nt.beans.TravelAgent" autowire="byType"/>
+</beans>

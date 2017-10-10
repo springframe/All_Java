@@ -1,0 +1,13 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="dfb" class="com.nt.beans.DateFactoryBean">
+<property name="year" value="117"/>
+<property name="month" value="6"/>
+<property name="year" value="3"/>
+</bean>
+<bean id="reminder" class="com.nt.beans.SchedulReminder">
+<property name="date" ref="dfb"/>
+</bean>
+</beans>

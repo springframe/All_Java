@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="servicelocator" class="com.nt.serviceLocatory.scoreLocator"/>
+
+
+<bean id="extscorecomp" factory-bean="servicelocator" factory-method="getSirvce"/>
+
+<bean id="findscoeImpl" class="com.nt.service.FindScoreServiceImpl">
+<property name="extscore" ref="extscorecomp"/>
+</bean>
+</beans>

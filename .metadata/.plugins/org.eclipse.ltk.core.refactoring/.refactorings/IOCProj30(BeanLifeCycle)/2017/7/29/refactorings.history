@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ApplicationContext.xml&apos; to &apos;DAOProj1(JdbcTamplate_DirectMethod)/src/main/java/com.ntcfgs&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj30(BeanLifeCycle)&apos;&#x0D;&#x0A;- Destination element: &apos;DAOProj1(JdbcTamplate_DirectMethod)/src/main/java/com.ntcfgs&apos;&#x0D;&#x0A;- Original element: &apos;ApplicationContext.xml&apos;" description="Copy file" destination="=DAOProj1\(JdbcTamplate_DirectMethod)/src\/main\/java&lt;com.ntcfgs" element1="src/main/java/com/nt/cfgs/ApplicationContext.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1500312296611" units="0" version="1.0"/>
+</session>

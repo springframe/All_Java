@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\SpringProject0000007\IOCProj\pom.xml"/>
+			<item value="F:\SpringProject0000007\IOCProj"/>
+			<item value="F:\SpringProject0000007\MVC-AnnotaionWish-AC"/>
+			<item value="F:\SpringProject0000007\IOCProj5(CyclicInjectionconstructor)"/>
+			<item value="F:\SpringProject0000007\MVCProj11(MiniProjCurdOperation)"/>
+			<item value="F:\SpringProject0000007\MAVProj8EmpSerchAppACC"/>
+			<item value="F:\SpringProject0000007\MVCProj6(UFNVC-2container)"/>
+			<item value="F:\SpringProject0000007\MVCProj5(UFNVC)"/>
+			<item value="F:\SpringProject0000007\IOCProj20(neatedBean)"/>
+			<item value="F:\SpringProject0000007\IOCProj7(Collection Injection)"/>
+			<item value="F:\SpringProject0000007\IOCProj4(constructor Injection)\src\main\java\com\nt\test\ClientApp.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="nit.hello"/>
+			<item value="nit.DAOProj1"/>
+			<item value="nit.IOCProj32"/>
+			<item value="nit.IOCProj31"/>
+			<item value="nit.IOCProj"/>
+			<item value="nit.BeanLifeCycle"/>
+			<item value="nit.IOCProj29"/>
+			<item value="nit.MVC_Annotaion_AC"/>
+			<item value="nit.IOCProj28"/>
+			<item value="nit.MVC_AnnotaionWish_AC"/>
+			<item value="nit.IOCProj26"/>
+			<item value="nit.IOCProj25"/>
+			<item value="nit.dd"/>
+			<item value="nit"/>
+			<item value="nit.MVCProj15"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+		</list>
+		<list key="artifactId">
+			<item value="hello"/>
+			<item value="DAOProj1"/>
+			<item value="InsertStudent"/>
+			<item value="IOCProj32"/>
+			<item value="IOCProj31"/>
+			<item value="IOCProj"/>
+			<item value="BeanLifeCycle"/>
+			<item value="IOCProj29"/>
+			<item value="MVC_Annotaion_AC"/>
+			<item value="IOCProj28"/>
+			<item value="MVC-AnnotaionWish-AC"/>
+			<item value="IOCProj26"/>
+			<item value="IOCProj25"/>
+			<item value="dd"/>
+			<item value="MVCProj15"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

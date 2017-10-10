@@ -1,0 +1,8 @@
+127.0.0.1 - - [12/Jun/2017:00:01:18 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:00:01:22 +0530] "GET /MVCProj8EmpSerchAppAcc1/ HTTP/1.1" 200 422
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:00:02:11 +0530] "GET /MVCProj8EmpSerchAppAcc1/ HTTP/1.1" 200 437
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:00:03:00 +0530] "GET /MVCProj8EmpSerchAppAcc1/ HTTP/1.1" 200 474
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:00:03:25 +0530] "POST /MVCProj8EmpSerchAppAcc1/searchEmps.htm HTTP/1.1" 500 3443
+127.0.0.1 - - [12/Jun/2017:00:10:09 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:00:10:10 +0530] "GET /MVCProj8EmpSerchAppAcc1/ HTTP/1.1" 200 474
+0:0:0:0:0:0:0:1 - - [12/Jun/2017:00:10:30 +0530] "POST /MVCProj8EmpSerchAppAcc1/searchEmps.htm HTTP/1.1" 500 3125

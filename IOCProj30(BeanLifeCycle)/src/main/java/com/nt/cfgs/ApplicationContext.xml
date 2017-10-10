@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="wish" class="com.nt.beans.WishMassageGenerator" init-method="myInit" destroy-method="myDestroy">
+<constructor-arg value="Raja"/>
+<property name="age" value="100"/>
+</bean>
+<bean class="com.nt.beans.myBeanpostProcessor"/>
+</beans>
