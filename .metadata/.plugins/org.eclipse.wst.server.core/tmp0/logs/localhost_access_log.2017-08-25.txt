@@ -16,3 +16,11 @@
 0:0:0:0:0:0:0:1 - - [25/Aug/2017:18:58:53 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/ HTTP/1.1" 200 100
 0:0:0:0:0:0:0:1 - - [25/Aug/2017:18:58:55 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/ HTTP/1.1" 200 100
 0:0:0:0:0:0:0:1 - - [25/Aug/2017:18:58:57 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/controller?matchId=567 HTTP/1.1" 500 5966
+127.0.0.1 - - [25/Aug/2017:22:25:19 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [25/Aug/2017:22:25:20 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/servlet/com.nt.controler.FindScoreControllerServlet HTTP/1.1" 404 1190
+0:0:0:0:0:0:0:1 - - [25/Aug/2017:22:26:05 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/ HTTP/1.1" 200 100
+0:0:0:0:0:0:0:1 - - [25/Aug/2017:22:26:09 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/ HTTP/1.1" 200 100
+0:0:0:0:0:0:0:1 - - [25/Aug/2017:22:26:12 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/controller?matchId=345 HTTP/1.1" 500 5966
+0:0:0:0:0:0:0:1 - - [25/Aug/2017:22:29:13 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/ HTTP/1.1" 200 100
+0:0:0:0:0:0:0:1 - - [25/Aug/2017:22:29:15 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/ HTTP/1.1" 200 100
+0:0:0:0:0:0:0:1 - - [25/Aug/2017:22:29:17 +0530] "GET /IOCProj32(Web-FactoryServiceLocatorUseCase)/controller?matchId=345 HTTP/1.1" 500 5966

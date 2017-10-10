@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="meeting" class="com.sdf.beans.Meeting">
+<property name="meetingId" value="100"/>
+<property name="mettingpurpose" value="to devlop java project"/>
+<property name="parcipent">
+<list value-type="java.lang.String">
+<value>john</value>
+<value>Smeeth</value>
+<value>Andi</value>
+</list>
+</property>
+<property name="calendr" ref="calendar" />
+</bean>
+<bean id="calendar" class="java.util.Calendar" factory-method="getInstance"/>
+</beans>
